@@ -18,7 +18,7 @@ The dataset consists of 33 columns including the target variable final grade (G3
 ## Example features include:
 - Age
 -  Study time
-- Ab#sences
+- Absences
 - Previous grades (G1 and G2)
 - Internet access
 - Extracurricular activities
