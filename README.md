@@ -15,10 +15,10 @@ This project analyses a student performance dataset and develops machine learnin
 ## Dataset:
 The dataset consists of 33 columns including the target variable final grade (G3) and 395 rows. The dataset contains information about students' demographic, social, and academic characteristics.
 
-### Example features include:
+## Example features include:
 - Age
 -  Study time
-- Absences
+- Ab#sences
 - Previous grades (G1 and G2)
 - Internet access
 - Extracurricular activities
@@ -38,7 +38,7 @@ The dataset consists of 33 columns including the target variable final grade (G3
 - Final Grade vs G2
 
 
-#### Key findings:
+### Key findings:
 - Students with higher G1 and G2 grades generally achieved higher final grades.
 - Higher absenteeism tended to be associated with lower final grades.
 - Students with internet access generally achieved slightly better grades.
@@ -68,7 +68,7 @@ The dataset consists of 33 columns including the target variable final grade (G3
 - Root Mean Squared Error 
 - R-square Score
 
-#### Key Findings:
+### Key Findings:
 The Decision Tree Regressor achieved the best performance with an MAE of 0.88, an RMSE of 1.323, and an R² score of 0.924.
 
 
