@@ -1,10 +1,10 @@
 # Student-Performance-Prediction
 Machine learning project predicting student performance using Python and scikit-learn.
 
-Project Overview
+## Project Overview
 This project analyses a student performance dataset and develops machine learning regression models to predict students' final grades. The project follows a complete data science workflow, including data exploration, data cleaning, feature preparation, model training, and model evaluation.
 
-Objectives:
+## Objectives:
 - Explore the factors that influence student performance.
 - Perform exploratory data analysis using visualisations.
 - Prepare the dataset for machine learning.
@@ -12,10 +12,10 @@ Objectives:
 - Compare the performance of different regression algorithms.
 
 
-Dataset:
+## Dataset:
 The dataset consists of 33 columns including the target variable final grade (G3) and 395 rows. The dataset contains information about students' demographic, social, and academic characteristics.
 
-Example features include:
+### Example features include:
 - Age
 -  Study time
 - Absences
@@ -24,7 +24,7 @@ Example features include:
 - Extracurricular activities
 
 
-The following visualisations were created:
+## The following visualisations were created:
 - Gender distribution
 - Pass/Fail distribution 
 - Grade distribution histogram
@@ -38,7 +38,7 @@ The following visualisations were created:
 - Final Grade vs G2
 
 
-Key findings:
+### Key findings:
 - Students with higher G1 and G2 grades generally achieved higher final grades.
 - Higher absenteeism tended to be associated with lower final grades.
 - Students with internet access generally achieved slightly better grades.
@@ -47,7 +47,7 @@ Key findings:
 - Students with higher failures achieved lower final grades. 
 
 
-The following preprocessing steps were performed:
+## The following preprocessing steps were performed:
 - Checked for missing values
 - Checked for duplicate records
 - One-hot encoded categorical variables
@@ -55,24 +55,24 @@ The following preprocessing steps were performed:
 - Split the data into training and testing sets (80/20)
 
 
-Models Used:
+## Models Used:
 - Linear Regression
 - Neural Network Regressor 
 - K-Nearest Neighbours Regressor 
 - Decision Tree Regressor
 
 
-The models were evaluated using:
+## The models were evaluated using:
 - Mean Absolute Error 
 - Mean Squared Error 
 - Root Mean Squared Error 
 - R-square Score
 
-Key Findings:
+### Key Findings:
 The Decision Tree Regressor achieved the best performance with an MAE of 0.88, an RMSE of 1.323, and an R² score of 0.924.
 
 
-Technologies Used:
+## Technologies Used:
 - Python
 - pandas
 - NumPy
