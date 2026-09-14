@@ -4,8 +4,12 @@ Machine learning project predicting student performance using Python and scikit-
 ## Project Overview
 This project analyses a student performance dataset and develops machine learning regression models to predict students' final grades. The project follows a complete data science workflow, including data exploration, data cleaning, feature preparation, model training, and model evaluation.
 
-## Dataset Selection
+## Dataset
 The data used for this project is the <strong>Student Performance dataset</strong> , obtained from <strong>Kaggle</strong>, a widely recognized platform for publicly available datasets for data science and machine learning projects.
+
+The dataset contains <strong>395 records</strong> and <strong>33 features</strong> which includes both categorical and numerical variables such as age, gender, family size and parents' occupations. The 33 features include a <strong>target ("G3")</strong> which indicates the final grade that the student achieved. 
+
+This dataset was chosen because it contains a mixture of categorical and numerical features, which allows for implementation preprocessing techniques such as encoding and normalization. These characteristics then make the dataset ideal for demonstrating knowledge in <strong>data preprocessing, exploratory data analysis, feature engineering, and machine learning model development</strong>.
 
 ## Objectives:
 - Explore the factors that influence student performance.
