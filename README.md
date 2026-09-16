@@ -1,7 +1,9 @@
 # Student-Performance-Prediction
 Machine learning project predicting student performance using Python and scikit-learn.
 <p align="center">
-  <img src="Student Performance Cover Page.png" alt="Student Performance Prediction Cover" width="100%">
+  <img src="Student%20Performance%20Cover%20Page.png" 
+       alt="Student Performance Cover Page" 
+       width="100%">
 </p>
 
 ## Project Overview
