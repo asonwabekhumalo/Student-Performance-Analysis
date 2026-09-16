@@ -37,6 +37,7 @@ The correlation analysis showed that previous academic performance had the stron
 <li>The following preprocessing steps were performed:
 <li>Checked for missing values
 <li>Checked for duplicate records
+<li>Add a column student_id uniquely identify each student for for the spaghetti plot
 <li>Removed the student_id identifier
 <li>Encoded categorical variables
 <li>Prepared the features and target variable
@@ -44,3 +45,51 @@ The correlation analysis showed that previous academic performance had the stron
 <li>Split the data into training, validation, and test sets
 
 A 60% training, 20% validation, and 20% test split was used.
+
+
+## Machine Learning Models
+Four regression models were developed:
+**1.** Linear Regression
+**2.** Neural Network Regression
+**3.** K-Nearest Neighbours (KNN) Regression
+**4.** Random Forest Regression
+
+The models were evaluated using:
+<li>Mean Absolute Error (MAE)
+<li>Root Mean Squared Error (RMSE)
+<li>R² (R-squared)
+
+## Model Comparison
+The validation set was used to compare the models, while the test set was reserved for the final evaluation of the selected model.
+<table>
+  <tr>
+    <th>Model</th>
+    <th>MAE</th>
+    <th>RMSE</th>
+    <th>R²</th>
+  </tr>
+  <tr>
+    <td>Linear Regression</td>
+    <td>206.064</td>
+    <td>222.623</td>
+    <td>-2047.9</td>
+  </tr>
+  <tr>
+    <td>Neural Network</td>
+    <td>76.449</td>
+    <td>79.555</td>
+    <td>-206.648</td>
+  </tr>
+  <tr>
+    <td>K-Nearest Neighbours</td>
+    <td>5.066</td>
+    <td>6.367</td>
+    <td>-0.676</td>
+  </tr>
+  <tr>
+    <td>Random Forest</td>
+    <td>7.812</td>
+    <td>9.039</td>
+    <td>-2.378</td>
+  </tr>
+</table>
