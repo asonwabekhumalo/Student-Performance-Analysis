@@ -1,10 +1,6 @@
 # Student-Performance-Prediction
 Machine learning project predicting student performance using Python and scikit-learn.
-<p align="center">
-  <img src="Student%20Performance%20Cover%20Page.png" 
-       alt="Student Performance Cover Page" 
-       width="100%">
-</p>
+
 
 ## Project Overview
 This project analyses a student performance dataset and develops machine learning regression models to predict students' final grades. The project follows a complete data science workflow, including data exploration, data cleaning, feature preparation, model training, and model evaluation.
