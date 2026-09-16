@@ -5,76 +5,42 @@ Machine learning project predicting student performance using Python and scikit-
 This project analyses a student performance dataset and develops machine learning regression models to predict students' final grades. The project follows a complete data science workflow, including data exploration, data cleaning, feature preparation, model training, and model evaluation.
 
 ## Dataset
-The data used for this project is the <strong>Student Performance dataset</strong> , obtained from <strong>Kaggle</strong>, a widely recognized platform for publicly available datasets for data science and machine learning projects.
+The data used for this project is the <strong>UCI Student Performance dataset</strong>, which contains information about students' academic performance, demographic characteristics, family background, and lifestyle factors. It was obtained from <strong>Kaggle</strong>, a widely recognized platform for publicly available datasets for data science and machine learning projects.
 
 The dataset contains <strong>395 records</strong> and <strong>33 features</strong> which includes both categorical and numerical variables such as age, gender, family size and parents' occupations. The 33 features include a <strong>target ("G3")</strong> which indicates the final grade that the student achieved. 
 
 This dataset was chosen because it contains a mixture of categorical and numerical features, which allows for implementation preprocessing techniques such as encoding and normalization. These characteristics then make the dataset ideal for demonstrating knowledge in <strong>data preprocessing, exploratory data analysis, feature engineering, and machine learning model development</strong>.
 
 ## Objectives:
-- Explore the factors that influence student performance.
-- Perform exploratory data analysis using visualisations.
-- Prepare the dataset for machine learning.
-- Build regression models to predict students' final grades.
-- Compare the performance of different regression algorithms.
+<li>Perform exploratory data analysis.
+<li>Explore the factors that influence student performance.
+<li>Prepare the dataset for machine learning.
+<li>Build regression models to predict students' final grades.
+<li>Compare the performance of different regression algorithms.
+<li>Evaluate the chosen algorithms performance.
 
 
-## The following visualisations were created:
-- Gender distribution
-- Pass/Fail distribution 
-- Grade distribution histogram
-- Final Grade vs Absences
-- Study Time vs Final Grade
-- Internet Access vs Final Grade
-- Activities vs Final Grade
-- Weedday and Weeked Alcohol Consumption vs Final Grade
-- Health vs Final Grade
-- Final Grade vs G1
-- Final Grade vs G2
+## Exploratory Data Analysis
+Exploratory data analysis was conducted to understand the dataset and identify patterns associated with students' final grades.
 
+<li>The analysis included:
+<li>Data quality checks
+<li>Descriptive statistics
+<li>Distribution analysis
+<li>Correlation analysis
+<li>Boxplots
+<li>Analysis of academic performance trends
 
-### Key findings:
-- Students with higher G1 and G2 grades generally achieved higher final grades.
-- Higher absenteeism tended to be associated with lower final grades.
-- Students with internet access generally achieved slightly better grades.
-- Study time showed a positive relationship with academic performance.
-- Less travel time was associated with good academic performance. 
-- Students with higher failures achieved lower final grades. 
+The correlation analysis showed that previous academic performance had the strongest relationship with final grades, particularly the first-period (G1) and second-period (G2) grades.
 
+## Data Preprocessing
+<li>The following preprocessing steps were performed:
+<li>Checked for missing values
+<li>Checked for duplicate records
+<li>Removed the student_id identifier
+<li>Encoded categorical variables
+<li>Prepared the features and target variable
+<li>Scaled features where required by the machine learning model
+<li>Split the data into training, validation, and test sets
 
-## The following preprocessing steps were performed:
-- Checked for missing values
-- Checked for duplicate records
-- One-hot encoded categorical variables
--  Normalised numerical features using MinMaxScaler
-- Split the data into training and testing sets (80/20)
-
-
-## Models Used:
-- Linear Regression
-- Neural Network Regressor 
-- K-Nearest Neighbours Regressor 
-- Decision Tree Regressor
-
-
-## The models were evaluated using:
-- Mean Absolute Error 
-- Mean Squared Error 
-- Root Mean Squared Error 
-- R-square Score
-
-### Key Findings:
-The Decision Tree Regressor achieved the best performance with an MAE of 0.88, an RMSE of 1.323, and an R² score of 0.924.
-
-
-## Technologies Used:
-- Python
-- pandas
-- NumPy
-- Matplotlib
-- scikit-learn
-- Seaborn
-- Jupyter Notebook
-
-
-
+A 60% training, 20% validation, and 20% test split was used.
