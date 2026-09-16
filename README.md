@@ -81,7 +81,7 @@ The validation set was used to compare the models, while the test set was reserv
     <td>-206.648</td>
   </tr>
   <tr>
-    <td>K-Nearest Neighbours</td>
+    <td>K-Nearest Neighbors</td>
     <td>5.066</td>
     <td>6.367</td>
     <td>-0.676</td>
@@ -93,3 +93,45 @@ The validation set was used to compare the models, while the test set was reserv
     <td>-2.378</td>
   </tr>
 </table>
+The K-Nearest Neighbors Regressor was chosen as it achieved the best performance with an MAE of 5.066, an RMSE of 6.367, and an R² score of -0.5. However, needed to be tuned due to the negative R². 
+
+
+## KNN Hyperparameter Tuning
+The K-Nearest Neighbours model was tuned by varying the number of neighbours (k).
+Different values of n_neighbors were tested and compared using validation MAE, RMSE, and R².
+
+80 neighbors were chosen for the final KNN model as it provided the best validation performance.
+
+
+## Model Evaluation
+For the tuned KNN model, the test-set R² of 0.141 indicates that approximately 14.1% of the variation in final grades was explained by the model.
+
+## Key Findings
+The analysis found that:
+<li>Previous academic performance was strongly associated with final grades.
+<li>Second-period grades had the strongest positive correlation with final grades.
+<li>First-period grades also showed a strong positive relationship with final grade.
+<li>Failures was the strongest negative correlation with final grades
+<li>Other academic, demographic, and lifestyle variables generally showed weaker linear associations.
+<li>Model performance varied across the different regression algorithms.
+
+## Technologies Used:
+<li>Python
+<li>Pandas
+<li>NumPy
+<li>Matplotlib
+<li>Seaborn
+<li>Scikit-learn
+<li>Jupyter Notebook
+
+## Project Structure
+Student-Performance-Prediction/
+│
+├── student_data.csv
+├── Student_Performance_Prediction.ipynb
+└──README.md
+
+## References
+UCI Machine Learning Repository — Student Performance Dataset
+Scikit-learn documentation
+
